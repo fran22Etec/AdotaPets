@@ -8,26 +8,31 @@
 
 
     <ImageView
+        android:id="@+id/imgLogo"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/logo" />
+        android:src="@drawable/logo"/>
 
     <EditText
+        android:id="@+id/edtUsuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Insira o nome do usuário" />
 
     <EditText
+        android:id="@+id/edtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Insira a senha do usuário" />
 
     <Button
+        android:id="@+id/btnEntrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Entrar" />
 
     <Button
+        android:id="@+id/btnSair"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sair" />
