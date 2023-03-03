@@ -14,6 +14,7 @@
 
 
         <ImageView
+            android:layout_centerHorizontal="true"
             android:id="@+id/imgLogo"
             android:layout_width="150dp"
             android:layout_height="150dp"
@@ -30,7 +31,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/imgLogo"
             android:layout_marginTop="20dp"
-            android:drawableEnd="@drawable/person"
             android:hint="Insira o nome do usuário"
             android:padding="10dp" />
 
